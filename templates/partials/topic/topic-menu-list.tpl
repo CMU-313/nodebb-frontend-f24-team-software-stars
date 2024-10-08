@@ -16,6 +16,14 @@
 </li>
 
 <li>
+	<a component="topic/tag" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2" role="menuitem"><i class="fa fa-fw fa-thumbs-up text-secondary"></i> Endorse Topic </a>
+</li>
+
+<li>
+	<a component="topic/tag" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2" role="menuitem"><i class="fa fa-fw fa-thumbs-down text-secondary"></i> Unendorse Topic </a>
+</li>
+
+<li>
 	<a component="topic/move" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2" role="menuitem"><i class="fa fa-fw fa-arrows text-secondary"></i> [[topic:thread-tools.move]]</a>
 </li>
 
