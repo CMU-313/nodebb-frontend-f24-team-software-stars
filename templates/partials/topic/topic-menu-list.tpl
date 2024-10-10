@@ -16,11 +16,11 @@
 </li>
 
 <li {{{ if endorsed }}}hidden{{{ end }}}>
-	<a component="topic/endorse" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2 {{{ if endorsed }}}hidden{{{ end }}}" role="menuitem"><i class="fa fa-fw fa-lock text-secondary"></i> Endorse Topic </a>
+	<a component="topic/endorse" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2 {{{ if endorsed }}}hidden{{{ end }}}" role="menuitem"><i class="fa fa-fw fa-thumbs-up text-secondary"></i> Endorse Topic </a>
 </li>
 
 <li {{{ if !endorsed }}}hidden{{{ end }}}>
-	<a component="topic/unendorse" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2 {{{ if !endorsed }}}hidden{{{ end }}}" role="menuitem"><i class="fa fa-fw fa-unlock text-secondary"></i> Unendorse Topic </a>
+	<a component="topic/unendorse" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2 {{{ if !endorsed }}}hidden{{{ end }}}" role="menuitem"><i class="fa fa-fw fa-thumbs-down fa-rotate-90 text-secondary"></i> Unendorse Topic </a>
 </li>
 
 <li>
