@@ -21,6 +21,25 @@
 		{{{ if author.userslug }}}<meta itemprop="url" content="{config.relative_path}/user/{author.userslug}">{{{ end }}}
 	</div>
 
+	<style>
+    .blue-box {
+        border: 2px solid #007BFF;
+        background-color: #E9F7FE;
+        padding: 10px;
+        border-radius: 5px;
+        color: #007BFF;
+    }
+	</style>
+
+	<div>
+		{{{if! answered}}}
+			<div class="blue-box">
+				<p>The question has been answered by a professor!</p>
+			</div>
+		{{{end}}}
+	</div>
+
+
 	<div class="d-flex flex-column gap-3">
 		<div class="d-flex flex-wrap">
 			<div class="d-flex flex-column gap-3 flex-grow-1">
