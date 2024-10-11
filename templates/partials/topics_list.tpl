@@ -44,6 +44,10 @@
 						<i class="fa fa-lock"></i>
 						<span>[[topic:locked]]</span>
 					</span>
+					<span component="topic/endorsed" class="badge border border-gray-300 text-body {{{ if !./endorsed }}}hidden{{{ end }}}">
+						<i class="fa fa-thumbs-up"></i>
+						<span>[[topic:endorsed]]</span>
+					</span>
 					<span component="topic/moved" class="badge border border-gray-300 text-body {{{ if !./oldCid }}}hidden{{{ end }}}">
 						<i class="fa fa-arrow-circle-right"></i>
 						<span>[[topic:moved]]</span>
